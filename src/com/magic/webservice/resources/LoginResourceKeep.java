@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.resources;
+package com.magic.webservice.resources;
 
 import javax.xml.ws.handler.LogicalHandler;
 import javax.xml.ws.handler.LogicalMessageContext;

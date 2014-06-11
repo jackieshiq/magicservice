@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.authentication;
+package com.magic.webservice.authentication;
 
 import static org.junit.Assert.assertTrue;
 
@@ -21,14 +21,14 @@ import javax.naming.directory.SearchResult;
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.webservice.api.CachedObjects;
-import com.fidelity.magic.webservice.resources.LoginResource;
-import com.fidelity.magic.webservice.util.*;
-import com.fidelity.magic.api.authentication.jMagicEncrypter;
-import com.fidelity.magic.api.subscribableobjects.jMagicUser;
-import com.fidelity.magic.api.util.SecurityToken;
-import com.fidelity.magic.tomcat.TomcatImpl;
-import com.fidelity.magic.util.DebugFilter;
+import com.magic.webservice.api.CachedObjects;
+import com.magic.webservice.resources.LoginResource;
+import com.magic.webservice.util.*;
+import com.magic.api.authentication.jMagicEncrypter;
+import com.magic.api.subscribableobjects.jMagicUser;
+import com.magic.api.util.SecurityToken;
+import com.magic.tomcat.TomcatImpl;
+import com.magic.util.DebugFilter;
 
 /**
  * wrapper of LDAPAuthentication

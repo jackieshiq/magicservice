@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.api.itsm;
+package com.magic.webservice.api.itsm;
 
 import java.util.ArrayList;
 import java.util.List;

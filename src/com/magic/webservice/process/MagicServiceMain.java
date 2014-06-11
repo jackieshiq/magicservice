@@ -1,12 +1,12 @@
-package com.fidelity.magic.webservice.process;
+package com.magic.webservice.process;
 
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.tomcat.TomcatEventSubscriber;
-import com.fidelity.magic.tomcat.TomcatImpl;
-import com.fidelity.magic.tomcat.TomcatObjectSubscriber;
-import com.fidelity.magic.webservice.util.Constants;
+import com.magic.tomcat.TomcatEventSubscriber;
+import com.magic.tomcat.TomcatImpl;
+import com.magic.tomcat.TomcatObjectSubscriber;
+import com.magic.webservice.util.Constants;
 
 public class MagicServiceMain implements Runnable {
 	

@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.api.itsm;
+package com.magic.webservice.api.itsm;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -10,11 +10,11 @@ import java.util.TreeMap;
 import org.apache.log4j.Logger;
 
 
-import com.fidelity.magic.api.stats.Counter;
-import com.fidelity.magic.api.stats.Gauge;
-import com.fidelity.magic.api.stats.StatisticsManager;
+import com.magic.api.stats.Counter;
+import com.magic.api.stats.Gauge;
+import com.magic.api.stats.StatisticsManager;
 
-import com.fidelity.magic.webservice.util.Constants;
+import com.magic.webservice.util.Constants;
 
 /**
  * singleton class hold all incident data

@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.resources;
+package com.magic.webservice.resources;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -26,19 +26,19 @@ import javax.xml.bind.JAXBElement;
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.api.jMagicEvent;
-import com.fidelity.magic.api.constants.DuplicateChecker;
-import com.fidelity.magic.api.constants.EventSeverity;
-import com.fidelity.magic.api.util.SecurityToken;
-//import com.fidelity.magic.tomcat.TomcatImpl;
-import com.fidelity.magic.tomcat.TomcatImpl;
-import com.fidelity.magic.webservice.api.CachedObjects;
-import com.fidelity.magic.webservice.api.Event;
-import com.fidelity.magic.webservice.api.EventResult;
-import com.fidelity.magic.webservice.authentication.MagicAuthentication;
-import com.fidelity.magic.webservice.authentication.jMagicUnauthorizedException;
-import com.fidelity.magic.webservice.util.Constants;
-import com.fidelity.magic.webservice.util.UIDGenerator;
+import com.magic.api.jMagicEvent;
+import com.magic.api.constants.DuplicateChecker;
+import com.magic.api.constants.EventSeverity;
+import com.magic.api.util.SecurityToken;
+//import com.magic.tomcat.TomcatImpl;
+import com.magic.tomcat.TomcatImpl;
+import com.magic.webservice.api.CachedObjects;
+import com.magic.webservice.api.Event;
+import com.magic.webservice.api.EventResult;
+import com.magic.webservice.authentication.MagicAuthentication;
+import com.magic.webservice.authentication.jMagicUnauthorizedException;
+import com.magic.webservice.util.Constants;
+import com.magic.webservice.util.UIDGenerator;
 
 /**
  * jMagic Event Webservice,

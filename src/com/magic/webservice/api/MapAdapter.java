@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.api;
+package com.magic.webservice.api;
 
 import java.util.HashMap;
 import java.util.Map;

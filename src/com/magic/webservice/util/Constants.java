@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.util;
+package com.magic.webservice.util;
 
 public class Constants {
 	

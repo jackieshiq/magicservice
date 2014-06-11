@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.resources;
+package com.magic.webservice.resources;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -27,13 +27,13 @@ import javax.xml.bind.JAXBElement;
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.api.constants.DuplicateChecker;
-import com.fidelity.magic.api.constants.EventSeverity;
-import com.fidelity.magic.webservice.api.itsm.Incident;
-import com.fidelity.magic.webservice.api.itsm.IncidentArray;
-import com.fidelity.magic.webservice.api.itsm.IncidentCache;
-import com.fidelity.magic.webservice.util.Constants;
-import com.fidelity.magic.webservice.util.UIDGenerator;
+import com.magic.api.constants.DuplicateChecker;
+import com.magic.api.constants.EventSeverity;
+import com.magic.webservice.api.itsm.Incident;
+import com.magic.webservice.api.itsm.IncidentArray;
+import com.magic.webservice.api.itsm.IncidentCache;
+import com.magic.webservice.util.Constants;
+import com.magic.webservice.util.UIDGenerator;
 
 /**
  * jMagic Incident Webservice, allows you to send incident object

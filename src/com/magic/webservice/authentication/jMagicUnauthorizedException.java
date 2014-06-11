@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.authentication;
+package com.magic.webservice.authentication;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;

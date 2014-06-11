@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.api;
+package com.magic.webservice.api;
 
 
 import java.io.ByteArrayInputStream;
@@ -13,9 +13,9 @@ import javax.ws.rs.core.MultivaluedMap;
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.webservice.authentication.MagicAuthentication;
-import com.fidelity.magic.webservice.resources.LoginResource;
-import com.fidelity.magic.webservice.util.Constants;
+import com.magic.webservice.authentication.MagicAuthentication;
+import com.magic.webservice.resources.LoginResource;
+import com.magic.webservice.util.Constants;
 import com.sun.jersey.api.container.ContainerException;
 import com.sun.jersey.api.container.filter.LoggingFilter;
 import com.sun.jersey.api.core.HttpContext;

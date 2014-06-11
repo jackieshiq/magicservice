@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.api;
+package com.magic.webservice.api;
 
 import java.util.Date;
 import java.util.Iterator;
@@ -9,15 +9,15 @@ import java.util.TreeMap;
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.api.jMagicObject;
-import com.fidelity.magic.api.constants.Hint;
-import com.fidelity.magic.api.subscribableobjects.jMagicUser;
-import com.fidelity.magic.api.util.SecurityToken;
-import com.fidelity.magic.tomcat.TomcatImpl;
-import com.fidelity.magic.tomcat.TomcatObjectSubscriber;
-import com.fidelity.magic.webservice.authentication.MagicAuthentication;
-import com.fidelity.magic.webservice.authentication.jMagicUnauthorizedException;
-import com.fidelity.magic.webservice.util.Constants;
+import com.magic.api.jMagicObject;
+import com.magic.api.constants.Hint;
+import com.magic.api.subscribableobjects.jMagicUser;
+import com.magic.api.util.SecurityToken;
+import com.magic.tomcat.TomcatImpl;
+import com.magic.tomcat.TomcatObjectSubscriber;
+import com.magic.webservice.authentication.MagicAuthentication;
+import com.magic.webservice.authentication.jMagicUnauthorizedException;
+import com.magic.webservice.util.Constants;
 
 /**
  * singleton class for caching Tokens for now, will be re-implemented using Shiro security
@@ -106,7 +106,7 @@ public class CachedObjects {
 	 * 
 	 * @param token
 	 * @param updateMagic - when user calls Login REST API, we'll update jMagicServer
-	 * @See com.fidelity.magic.api.util.SecurityToken
+	 * @See com.magic.api.util.SecurityToken
 	 */
 	public void addUser(SecurityToken token, boolean updateMagic) throws jMagicUnauthorizedException
 	{

@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.resources;
+package com.magic.webservice.resources;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.FormParam;
@@ -13,10 +13,10 @@ import javax.ws.rs.core.Response;
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.api.util.SecurityToken;
-import com.fidelity.magic.webservice.authentication.MagicAuthentication;
-import com.fidelity.magic.webservice.authentication.jMagicUnauthorizedException;
-import com.fidelity.magic.webservice.util.Constants;
+import com.magic.api.util.SecurityToken;
+import com.magic.webservice.authentication.MagicAuthentication;
+import com.magic.webservice.authentication.jMagicUnauthorizedException;
+import com.magic.webservice.util.Constants;
 import com.wordnik.swagger.annotations.*;
 
 

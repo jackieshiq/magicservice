@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.api.itsm;
+package com.magic.webservice.api.itsm;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

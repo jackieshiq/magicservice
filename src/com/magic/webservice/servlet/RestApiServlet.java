@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.servlet;
+package com.magic.webservice.servlet;
 
 import java.io.IOException;
 
@@ -10,12 +10,12 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.tomcat.TomcatEventSubscriber;
-import com.fidelity.magic.tomcat.TomcatImpl;
-import com.fidelity.magic.tomcat.TomcatObjectSubscriber;
-import com.fidelity.magic.webservice.process.MagicServiceMain;
-import com.fidelity.magic.webservice.util.Constants;
-import com.fidelity.magic.webservice.util.Log4jLoad;
+import com.magic.tomcat.TomcatEventSubscriber;
+import com.magic.tomcat.TomcatImpl;
+import com.magic.tomcat.TomcatObjectSubscriber;
+import com.magic.webservice.process.MagicServiceMain;
+import com.magic.webservice.util.Constants;
+import com.magic.webservice.util.Log4jLoad;
 
 /**
  * Servlet implementation class RestApiServlet

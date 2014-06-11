@@ -1,9 +1,9 @@
-package com.fidelity.magic.webservice.api;
+package com.magic.webservice.api;
 
 import javax.ws.rs.WebApplicationException;
 
-import com.fidelity.magic.webservice.authentication.jMagicUnauthorizedException;
-import com.fidelity.magic.webservice.resources.LoginResource;
+import com.magic.webservice.authentication.jMagicUnauthorizedException;
+import com.magic.webservice.resources.LoginResource;
 import com.sun.jersey.spi.container.ContainerRequest;
 import com.sun.jersey.spi.container.ContainerRequestFilter;
 

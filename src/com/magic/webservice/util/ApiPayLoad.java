@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.util;
+package com.magic.webservice.util;
 
 import java.io.*;
 import java.net.*;
@@ -13,8 +13,8 @@ import org.apache.commons.httpclient.methods.StringRequestEntity;
 import org.apache.log4j.Logger; //log4j
 import org.apache.log4j.PropertyConfigurator;
 
-import com.fidelity.magic.api.constants.DuplicateChecker;
-import com.fidelity.magic.api.constants.EventSeverity;
+import com.magic.api.constants.DuplicateChecker;
+import com.magic.api.constants.EventSeverity;
 import com.sun.net.ssl.SSLContext;
 import com.sun.net.ssl.TrustManager;
 import com.sun.net.ssl.X509TrustManager;

@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.process;
+package com.magic.webservice.process;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -9,16 +9,16 @@ import java.util.TreeMap;
 
 import org.apache.log4j.Logger;
 
-import com.fidelity.magic.api.jMagicObject;
-import com.fidelity.magic.api.constants.ObjectUpdateAction;
-import com.fidelity.magic.api.subscribableobjects.jIncidentTicket;
-import com.fidelity.magic.api.subscribableobjects.jMagicUser;
-import com.fidelity.magic.api.util.SecurityToken;
-import com.fidelity.magic.tomcat.TomcatImpl;
-import com.fidelity.magic.tomcat.TomcatObjectSubscriber;
-import com.fidelity.magic.tomcat.listener.ApiUserSubscriberListener;
-import com.fidelity.magic.webservice.api.CachedObjects;
-import com.fidelity.magic.webservice.util.Constants;
+import com.magic.api.jMagicObject;
+import com.magic.api.constants.ObjectUpdateAction;
+import com.magic.api.subscribableobjects.jIncidentTicket;
+import com.magic.api.subscribableobjects.jMagicUser;
+import com.magic.api.util.SecurityToken;
+import com.magic.tomcat.TomcatImpl;
+import com.magic.tomcat.TomcatObjectSubscriber;
+import com.magic.tomcat.listener.ApiUserSubscriberListener;
+import com.magic.webservice.api.CachedObjects;
+import com.magic.webservice.util.Constants;
 
 public class ApiUserSubscriberImpl implements  ApiUserSubscriberListener{
 

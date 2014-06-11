@@ -1,4 +1,4 @@
-package com.fidelity.magic.webservice.process;
+package com.magic.webservice.process;
 
 public class DeliveryQueue {
 
